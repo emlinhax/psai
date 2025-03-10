@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 INITIAL_PROMPT = """
-""" + open("manual.txt", "r").read() +"""
+""" + open("manual.md", "r").read() +"""
 
 
 YOUR INSTRUCTIONS:
