@@ -6,8 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 MODEL_ID = "gemini-2.0-flash-exp"
-CHANNEL_ID = int(os.getenv('ISCB_CHANNEL_ID'))
-PROJECT_ID = os.getenv('ISCB_GOOGLE_PROJECT_ID')
+PROJECT_ID = os.getenv('GOOGLE_PROJECT_ID')
 
 INITIAL_PROMPT = """
 """ + open("manual.txt", "r").read() +"""
