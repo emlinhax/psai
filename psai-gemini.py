@@ -9,7 +9,7 @@ MODEL_ID = "gemini-2.0-flash-exp"
 PROJECT_ID = os.getenv('GOOGLE_PROJECT_ID')
 
 INITIAL_PROMPT = """
-""" + open("manual.txt", "r").read() +"""
+""" + open("manual.md", "r").read() +"""
 
 
 YOUR INSTRUCTIONS:
